@@ -1,0 +1,40 @@
+{
+  "name": "@archivistnerd/dye",
+  "version": "0.0.1-alpha-201122.0400",
+  "description": "Archivist Nerd's dye Package",
+  "copy": "Copyright (c) 2020 Archivist-Nerd",
+  "main": "dye.js",
+  "scripts": {
+    "build": "node_modules/.bin/build.cmd ./src/.build",
+    "example": "node examples/simple.js",
+    "test": "node_modules/.bin/build.cmd ./src/.build & node tests/test.js",
+    "pack": "npm pack",
+    "pub": "npm publish --access=public"
+  },
+  "keywords": [
+    "Archivist",
+    "Nerd",
+    "terminal",
+    "dye",
+    "color",
+    "colour"
+  ],
+  "homepage": "https://github.com/Archivist-Nerd/node-dye/blob/main/README.md",
+  "license": "(MIT or SEE LICENSE IN https://github.com/Archivist-Nerd/node-dye/blob/main/docs/LICENSE",
+  "bugs": {
+    "url": "https://github.com/Archivist-Nerd/node-dye/issues"
+  },
+  "repository": {
+    "url": "https://github.com/Archivist-Nerd/node-dye.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Archivist Nerd",
+    "email": "a.Nerd.Archivist@gmail.com",
+    "url": "https://github.com/Archivist-Nerd"
+  },
+  "devDependencies": {
+    "@archivist/build": "0.0.4",
+    "@archivistnerd/testlib": "^0.1.2"
+  }
+}
