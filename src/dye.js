@@ -24,7 +24,7 @@
  *      dye('green','It Works :)')
  */
 const colors = {
-        //            text colors         end code: 39
+        //            text colors               end code: 39
         black:   30,
         red:     31,
         green:   32,
@@ -33,7 +33,19 @@ const colors = {
         magenta: 35,
         cyan:    36,
         white:   37,
-        //            background colors   end code: 49
+        //            text bright colors        end code: 39
+        grey:          90,
+        gray:          90,
+        blackBright:   90,
+        redBright:     91,
+        greenBright:   92,
+        yellowBright:  93,
+        blueBright:    94,
+        magentaBright: 95,
+        cyanBright:    96,
+        whiteBright:   97,
+
+        //            background colors         end code: 49
         bgblack:   40,
         bgred:     41,
         bggreen:   42,
@@ -42,6 +54,17 @@ const colors = {
         bgmagenta: 45,
         bgcyan:    46,
         bgwhite:   47,
+        //            background bright colors  end code: 49
+        bggrey:          100,
+        bggray:          100,
+        bgblackBright:   100,
+        bgredBright:     101,
+        bggreenBright:   102,
+        bgyellowBright:  103,
+        bgblueBright:    104,
+        bgmagentaBright: 105,
+        bgcyanBright:    106,
+        bgwhiteBright:   107,
       }
     , ansi = (color,code=color) => (color>0)? `\u001B[${code}m`:''
     , forceColors = true
@@ -56,9 +79,10 @@ module.exports = function dye( choices='', text='' ){
 
   choices.replace(/,/g,'.').split('.').forEach( color => {
     let code = colors[ color.toLowerCase() ]
+      , group = parseInt(code/10)
       ;
     if ( code == undefined) return
-    if ( code < 40 )
+    if ( group == 3 || group == 9)
       fg = code; 
     else
       bg = code;

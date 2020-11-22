@@ -1,6 +1,6 @@
 {
   "name": "@archivistnerd/dye",
-  "version": "0.0.1-alpha-201122.0400",
+  "version": "0.0.1-alpha-201122.0500",
   "description": "Archivist Nerd's dye Package",
   "copy": "Copyright (c) 2020 Archivist-Nerd",
   "main": "dye.js",
