@@ -1,0 +1,11 @@
+# .npmignore
+node_modules
+*.tgz
+
+docs
+examples
+tests
+
+src
+
+.travis.yml
