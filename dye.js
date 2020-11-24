@@ -10,8 +10,6 @@
  * @api:Example:
  *      const dye = require('@archivistnerd/dye');
  */
- const fs = require('fs')
-     ;
 const colors = {
         //            text colors               end code: 39
         black:   30,
@@ -68,7 +66,7 @@ module.exports = function dye( choices='', text='' ){
 
   choices.replace(/,/g,'.').split('.').forEach( color => {
     let code = colors[ color.toLowerCase() ]
-      , group = parseInt(code/10)
+      , group = (code/10>>0)        // returns only integer of division
       ;
     if ( code == undefined) return
     if ( group == 3 || group == 9)

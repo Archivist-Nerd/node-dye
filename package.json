@@ -1,6 +1,6 @@
 {
   "name": "@archivistnerd/dye",
-  "version": "0.0.1-alpha-201122.0500",
+  "version": "0.0.2",
   "description": "Archivist Nerd's dye Package",
   "copy": "Copyright (c) 2020 Archivist-Nerd",
   "main": "dye.js",
@@ -20,7 +20,7 @@
     "colour"
   ],
   "homepage": "https://github.com/Archivist-Nerd/node-dye/blob/main/README.md",
-  "license": "(MIT or SEE LICENSE IN https://github.com/Archivist-Nerd/node-dye/blob/main/docs/LICENSE",
+  "license": "(MIT or SEE LICENSE IN https://github.com/Archivist-Nerd/node-dye/blob/main/docs/LICENSE)",
   "bugs": {
     "url": "https://github.com/Archivist-Nerd/node-dye/issues"
   },
