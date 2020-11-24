@@ -2,6 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/@archivistnerd/dye.svg)](https://www.npmjs.com/package/@archivistnerd/dye)
 [![build status](https://api.travis-ci.com/Archivist-Nerd/node-dye.svg)](https://travis-ci.com/Archivist-Nerd/node-dye.svg)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/Archivist-Nerd/node-dye.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Archivist-Nerd/node-dye/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Archivist-Nerd/node-dye.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Archivist-Nerd/node-dye/context:javascript)
 
 Archivist Nerd's dye Package
 
