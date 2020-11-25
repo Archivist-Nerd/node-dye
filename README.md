@@ -4,6 +4,7 @@
 [![build status](https://api.travis-ci.com/Archivist-Nerd/node-dye.svg)](https://travis-ci.com/Archivist-Nerd/node-dye.svg)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/Archivist-Nerd/node-dye.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Archivist-Nerd/node-dye/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Archivist-Nerd/node-dye.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Archivist-Nerd/node-dye/context:javascript)
+[![Known Vulnerabilities](https://snyk.io/test/Archivist-Nerd/node-dye/badge.svg)](https://snyk.io/test/github/Archivist-Nerd/node-dye)
 
 Archivist Nerd's dye Package
 
